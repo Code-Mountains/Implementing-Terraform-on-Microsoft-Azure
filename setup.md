@@ -1,3 +1,4 @@
+```
 sudo apt-get update
 
 sudo apt-get install azure-cli
@@ -11,3 +12,4 @@ az --version
 az vm list --output table
 
 sudo apt-get update && sudo apt-get upgrade azure-cli
+```
