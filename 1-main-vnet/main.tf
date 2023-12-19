@@ -9,6 +9,8 @@ terraform {
       version = "~> 2.0"
     }
   }
+
+  
 }
 
 #############################################################################
@@ -46,7 +48,9 @@ variable "subnet_names" {
 
 provider "azurerm" {
   features {}
+  skip_provider_registration = true
 }
+
 
 #############################################################################
 # RESOURCES
